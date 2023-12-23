@@ -1,0 +1,7 @@
+/* 标签样式 */
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(150, 150, 150);
+}

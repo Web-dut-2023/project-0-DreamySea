@@ -1,0 +1,138 @@
+<!-- 谷歌高级搜索 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+
+    <!-- 外联css文件 -->
+    <link rel="stylesheet" href="../css/class.css">
+    <link rel="stylesheet" href="../css/img.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- 谷歌logo -->
+    <div class="left">
+        <img src="../resources/img/google_advanced.jpg" alt="谷歌高级搜索logo" class="size10">
+    </div>
+    <br>
+
+    <!-- 搜索框1 -->
+    <hr>
+    <br><br>
+    <form action="https://www.google.com/advanced_search">
+        使用以下条件来搜索网页... <br><br>
+
+        以下所有字词：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" name="all_words" class="box50"> <br><br>
+
+        与以下字词完全匹配：<input type="text" name="all_match_words" class="box50"> <br><br>
+
+        以下任意字词：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" name="arbitrary_words" class="box50"> <br><br>
+
+        不含以下任意字词：&nbsp; &nbsp;
+        <input type="text" name="no_arbitrary_words" class="box50"> <br><br>
+
+        数字范围：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        从 <input type="number" name="begin_um" class="box23">
+        到 <input type="number" name="end_um" class="box23">
+    </form>
+    <br><br>
+
+    <!-- 搜索框2 -->
+    <hr>
+    <br><br>
+    <form action="https://www.google.com/advanced_search">
+        然后按以下标准缩小搜索结果范围... <br><br>
+        
+        语言：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="language" class="box50">
+            <option value="la1">任何语言</option>
+            <option value="la1">简体中文</option>
+            <option value="la2">繁体中文</option>
+            <option value="la3">英语</option>
+            <option value="la4">日语</option>
+            <option value="la5">俄语</option>
+            <option value="la6">法语</option>
+            <option value="la7">德语</option>
+            <option value="la8">韩语</option>
+        </select> <br><br>
+
+        地区：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="local" class="box50">
+            <option value="lo0">任何国家/地区</option>
+            <option value="lo1">选项1</option>
+            <option value="lo2">选项2</option>
+            <option value="lo3">选项3</option>
+            <option value="lo4">选项4</option>
+        </select> <br><br>
+
+        最后更新时间：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="time" class="box50">
+            <option value="ti0">任何时间</option>
+            <option value="ti1">一天内</option>
+            <option value="ti2">一周内</option>
+            <option value="ti3">一个月内</option>
+            <option value="ti4">一年内</option>
+        </select> <br><br>
+
+        网站或域名：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="text" name="input_url" class="box50"> <br><br>
+
+        字词出现位置：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="words_local" class="box50">
+            <option value="wl0">网页上任何位置</option>
+            <option value="wl1">网页标题中</option>
+            <option value="wl2">网页文本中</option>
+            <option value="wl3">网页网址中</option>
+            <option value="wl4">指向网页的链接中</option>
+        </select> <br><br>
+
+        文件类型：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="type" class="box50">
+            <option value="ty0">任意格式</option>
+            <option value="ty1">.txt</option>
+            <option value="ty2">.doc</option>
+            <option value="ty3">.xls</option>
+            <option value="ty4">.pdf</option>
+            <option value="ty4">.ppt</option>
+        </select> <br><br>
+
+        使用权限：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <select name="authority" class="box50">
+            <option value="au0">不按照许可过滤</option>
+            <option value="au1">可随意使用或共享</option>
+            <option value="au2">可随意使用或共享（甚至用于商业用途）</option>
+            <option value="au3">可随意使用、共享或修改</option>
+            <option value="au4">可随便使用、共享或修改（甚至用于商业用途）</option>
+        </select> <br><br>
+
+        <!-- 搜索按钮 -->
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="submit" value="Google Advanced Search" id="right">
+    </form>
+    <br><br>
+
+    <!-- 更多功能 -->
+    <div class="center">
+        <hr>
+        <h5>
+            <a href="index.html" target="_blank">Back to Google Search</a>
+        </h5>
+        <hr>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/* class样式 */
+
+.center {
+    /* 文字居中对齐 */
+    text-align: center;
+
+    /* 定义伸缩容器 */
+    /* display: flex; */
+
+    /* 主轴对齐方式 */
+    /* justify-content: center; */
+
+    /* 纵轴对齐方式 */
+    /* align-items: center; */
+}
+
+.left {
+    /* 文字居左对齐 */
+    text-align: left;
+}
+
+.right {
+    /* 文字居左对齐 */
+    text-align: right;
+}
+
+.blank {
+    height: 25vh;
+}
+
+.box50 {
+    width: 50%;
+}
+
+.box23 {
+    width: 23%;
+}
